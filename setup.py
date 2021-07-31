@@ -18,6 +18,6 @@ setup(
     packages=["datagene"]
     install_requires=read_reqs("requirements.txt"),
     include_package_data=True,
-    version="1.0.0",
+    version="0.0.1",
     zip_safe=False,
 )
