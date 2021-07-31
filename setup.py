@@ -1,13 +1,8 @@
 from setuptools import find_packages, setup
 
 
-def read_reqs(req_file: str):
-    with open(req_file) as req:
-        return [
-            line.strip()
-            for line in req.readlines()
-            if line.strip() and not line.strip().startswith("#")
-        ]
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 
 setup(
