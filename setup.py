@@ -11,7 +11,7 @@ def read_reqs(req_file: str):
 
 
 setup(
-    name="datagen",
+    name="datagene",
     packages=find_packages(),
     author="Nikhil Joshi",
     author_email="joshi.nikh@northeastern.edu",
@@ -20,6 +20,7 @@ setup(
         "A Fastest way to generate tabular data and train it on Auto Ml Architecture "
     ),
     license="MIT",
+    packages=["datagene"]
     install_requires=read_reqs("requirements.txt"),
     include_package_data=True,
     version="1.0.0",
