@@ -24,3 +24,4 @@ setup(
     include_package_data=True,
     version="1.0.0",
     zip_safe=False,
+)
